@@ -21,3 +21,7 @@ A responsive, accessible, no-build static website for GitHub Pages. Uses plain H
 - Online source verification was completed November 5, 2026 for the initial listings. Live phone confirmation and FRN editorial approval are still needed.
 - No FRN logo was used because brand asset permissions have not been confirmed.
 - Open `index.html` through GitHub Pages or a local web server (e.g. `python -m http.server`); opening as a local `file://` URL can prevent JSON loading.
+
+
+## Red theme update (November 2026)
+This version updates `styles.css` and the browser theme color in `index.html` to a coordinated burgundy/crimson/blush palette. Directory data and behavior are unchanged. To update an existing GitHub Pages site, replace **only** `styles.css` and `index.html` in the repository root, then commit.
