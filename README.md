@@ -1,14 +1,15 @@
-# Calhoun County FRN Resource Directory — expanded edition
+# Calhoun County FRN Community Resource Hub — Warm Redesign
 
-**44 unique listings** (8 original, 34 imported from supplied Calhoun County Resource Guide, 2 additional official-source entries).
+This is a drop-in replacement for the existing GitHub Pages website. It retains the same 44 resource records from the prior published package, with no additional entries or claims of verification.
 
-## Deploy on GitHub Pages
-Upload `index.html`, `styles.css`, `app.js`, `providers.json`, and `calhoun-frn-logo.png` to the **root** of `RiseCalhounFRN/calhoun-frn-resources`, replacing files with the same names. Keep Settings → Pages → Deploy from branch → `main` → `/(root)`. Do not upload an enclosing folder.
+## Deploy
+Upload these five files to the **root** of `RiseCalhounFRN/calhoun-frn-resources` on the `main` branch, replacing existing versions: `index.html`, `styles.css`, `app.js`, `providers.json`, `calhoun-frn-logo.png`. Commit and wait for GitHub Pages deployment. No verification report is included.
 
-## Editing
-Edit `providers.json` to add or change resources. Each provider has a unique `id`, `name`, `category` array, `scope`, `description`, `phone`, `address`, `website`, `access`, `hours`, `source`, and verification fields. Do not publish client personal information.
+## Features
+- Warm burgundy/ivory visual design, responsive layout, original CSS Appalachian hills illustration
+- Eight needs-based shortcuts that filter existing records by keywords
+- Search, category and service-area filters, reset controls, resource cards, phone and web links
+- Crisis support banner and FRN contact section
+- Accessible labels, keyboard focus styles and reduced-motion support
 
-## Verification standard
-Entries labeled **Official source checked** were corroborated against current official organization or government pages on 2026-11-06. This does not guarantee operating hours or eligibility. Entries labeled **Guide listing — verify before referral** came from the supplied FRN guide and should be called before a referral. Existing listings were preserved. `VERIFICATION-REPORT.csv` is an internal checklist; it is not used by the website.
-
-Source: supplied 14-page Calhoun County Resource Guide and links recorded per provider. The external Calhoun County, Michigan resource directory is not included.
+Needs shortcuts are **keyword filters**, not professionally assessed eligibility matching. Some categories may show few or no resources. Verify providers and eligibility before referrals.
