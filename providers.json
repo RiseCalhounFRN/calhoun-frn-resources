@@ -1,10 +1,848 @@
 [
-{"id":"frn","name":"Calhoun County Family Resource Network & Family Support Center","category":["Family & parenting","Food & essentials","Recovery & mental health","Employment & education"],"scope":"Local","description":"Family support, food pantry, hygiene and baby supplies, parenting classes, job readiness, WRAP planning and SMART Recovery meetings. Some supplies have household eligibility restrictions.","phone":"304-354-7177","address":"364 Main Street, Grantsville, WV 26147","website":"https://calhounfrn.org/services/","access":"Call or visit; food pantry walk-ins welcomed during posted hours. Call ahead for classes and availability.","hours":"Website lists Monday–Thursday, 8:30 AM–2 PM","source":"https://calhounfrn.org/services/","checked":"2026-11-05"},
-{"id":"dohs","name":"Calhoun County Department of Human Services","category":["Food & essentials","Housing & utilities","Healthcare & insurance","Family & parenting"],"scope":"Local","description":"Local office for applications and case assistance involving SNAP, Medicaid, WV WORKS, energy and other eligible family assistance programs.","phone":"304-354-6118","address":"85 Industrial Park Road, Grantsville, WV 26147","website":"https://wvpath.wv.gov/","access":"Call the county office or apply online using WV PATH; eligibility determined by the agency.","hours":"Monday–Friday, 8:30 AM–5 PM (state listing)","source":"https://bms.wv.gov/field-offices","checked":"2026-11-05"},
-{"id":"westbrook","name":"Westbrook Health Services","category":["Recovery & mental health","Healthcare & insurance"],"scope":"Regional","description":"Behavioral health, counseling, youth services and substance use treatment serving Calhoun and neighboring counties. Ask about telehealth and available appointments.","phone":"304-485-1721","address":"Main office: 2121 Seventh Street, Parkersburg, WV 26101; Roane office: 227 Clay Road, Spencer, WV 25276","website":"https://www.westbrookhealth.org/services","access":"Call intake to discuss services, location, payment and appointment availability.","hours":"See current hours on provider website","source":"https://www.westbrookhealth.org/","checked":"2026-11-05"},
-{"id":"westbrook-crisis","name":"Westbrook 24/7 Crisis Services","category":["Crisis & safety","Recovery & mental health"],"scope":"Regional","description":"24/7 call/text crisis support and mobile crisis services in Westbrook's service area, including Calhoun County.","phone":"304-485-1725","address":"Regional mobile and telephone services","website":"https://www.westbrookhealth.org/crisis","access":"Call or text 304-485-1725; alternate phone 800-579-5844. For immediate physical danger call 911.","hours":"24/7 crisis line","source":"https://www.westbrookhealth.org/crisis","checked":"2026-11-05"},
-{"id":"help4wv","name":"HELP4WV","category":["Recovery & mental health","Crisis & safety"],"scope":"Statewide","description":"Statewide 24/7 confidential help locating mental health and substance use treatment, including referrals and recovery support.","phone":"844-435-7498","address":"Phone, text and online service statewide","website":"https://www.help4wv.com/","access":"Call or text 844-435-7498 or use the website chat.","hours":"24/7","source":"https://www.help4wv.com/contact","checked":"2026-11-05"},
-{"id":"wv211","name":"West Virginia 211","category":["Food & essentials","Housing & utilities","Transportation","Family & parenting","Legal & financial","Community navigation"],"scope":"Statewide","description":"Free statewide information and referral assistance for food, shelter, utility, transportation and other community needs.","phone":"833-848-9905","address":"Telephone and online statewide","website":"https://wv211.org/","access":"Dial 211, call 833-848-9905, or text your ZIP code to 898-211.","hours":"24/7","source":"https://wv211.org/contact","checked":"2026-11-05"},
-{"id":"wvpath","name":"WV PATH Benefits Portal","category":["Food & essentials","Housing & utilities","Healthcare & insurance","Family & parenting"],"scope":"Statewide","description":"Online applications for SNAP, Medicaid/WVCHIP, childcare assistance, home energy assistance and other state programs.","phone":"877-716-1212","address":"Online statewide","website":"https://wvpath.wv.gov/","access":"Screen for assistance and apply online; county office can help with applications.","hours":"Online portal; phone assistance hours vary","source":"https://www.wvpath.wv.gov/","checked":"2026-11-05"},
-{"id":"988","name":"988 Suicide & Crisis Lifeline","category":["Crisis & safety","Recovery & mental health"],"scope":"Nationwide","description":"Free confidential crisis support for people experiencing emotional distress or suicidal thoughts.","phone":"988","address":"Call, text and online","website":"https://988lifeline.org/","access":"Call or text 988; call 911 for immediate danger or medical emergency.","hours":"24/7","source":"https://988lifeline.org/","checked":"2026-11-05"}
+  {
+    "id": "frn",
+    "name": "Calhoun County Family Resource Network & Family Support Center",
+    "category": [
+      "Family & parenting",
+      "Food & essentials",
+      "Recovery & mental health",
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Family support, food pantry, hygiene and baby supplies, parenting classes, job readiness, WRAP planning and SMART Recovery meetings. Eligibility varies by service.",
+    "phone": "304-354-7177",
+    "address": "364 Main Street, Grantsville, WV 26147",
+    "website": "https://calhounfrn.org/services/",
+    "access": "Food pantry currently lists no restrictions; hygiene, cleaning and baby supplies require a child age 18 or younger in the home. Call ahead for classes.",
+    "hours": "Website lists Monday–Thursday, 8:30 AM–2 PM",
+    "source": "https://calhounfrn.org/services/",
+    "checked": "2026-11-05",
+    "verificationStatus": "Official source checked",
+    "verificationNote": "FRN official services page; call to confirm current availability."
+  },
+  {
+    "id": "dohs",
+    "name": "Calhoun County Department of Human Services",
+    "category": [
+      "Food & essentials",
+      "Housing & utilities",
+      "Healthcare & insurance",
+      "Family & parenting"
+    ],
+    "scope": "Local",
+    "description": "Local office for applications and case assistance involving SNAP, Medicaid, WV WORKS, energy and other eligible family assistance programs.",
+    "phone": "304-354-6118",
+    "address": "85 Industrial Park Road, Grantsville, WV 26147",
+    "website": "https://wvpath.wv.gov/",
+    "access": "Call the county office or apply online using WV PATH; eligibility determined by the agency.",
+    "hours": "Monday–Friday, 8:30 AM–5 PM (state listing)",
+    "source": "https://bms.wv.gov/field-offices",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "westbrook",
+    "name": "Westbrook Health Services",
+    "category": [
+      "Recovery & mental health",
+      "Healthcare & insurance"
+    ],
+    "scope": "Regional",
+    "description": "Behavioral health, counseling, youth services and substance use treatment serving Calhoun and neighboring counties. Ask about telehealth and available appointments.",
+    "phone": "304-485-1721",
+    "address": "Main office: 2121 Seventh Street, Parkersburg, WV 26101; Roane office: 227 Clay Road, Spencer, WV 25276",
+    "website": "https://www.westbrookhealth.org/services",
+    "access": "Call intake to discuss services, location, payment and appointment availability.",
+    "hours": "See current hours on provider website",
+    "source": "https://www.westbrookhealth.org/",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "westbrook-crisis",
+    "name": "Westbrook 24/7 Crisis Services",
+    "category": [
+      "Crisis & safety",
+      "Recovery & mental health"
+    ],
+    "scope": "Regional",
+    "description": "24/7 call/text crisis support and mobile crisis services in Westbrook's service area, including Calhoun County.",
+    "phone": "304-485-1725",
+    "address": "Regional mobile and telephone services",
+    "website": "https://www.westbrookhealth.org/crisis",
+    "access": "Call or text 304-485-1725; alternate phone 800-579-5844. For immediate physical danger call 911.",
+    "hours": "24/7 crisis line",
+    "source": "https://www.westbrookhealth.org/crisis",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "help4wv",
+    "name": "HELP4WV",
+    "category": [
+      "Recovery & mental health",
+      "Crisis & safety"
+    ],
+    "scope": "Statewide",
+    "description": "Statewide 24/7 confidential help locating mental health and substance use treatment, including referrals and recovery support.",
+    "phone": "844-435-7498",
+    "address": "Phone, text and online service statewide",
+    "website": "https://www.help4wv.com/",
+    "access": "Call or text 844-435-7498 or use the website chat.",
+    "hours": "24/7",
+    "source": "https://www.help4wv.com/contact",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "wv211",
+    "name": "West Virginia 211",
+    "category": [
+      "Food & essentials",
+      "Housing & utilities",
+      "Transportation",
+      "Family & parenting",
+      "Legal & financial",
+      "Community navigation"
+    ],
+    "scope": "Statewide",
+    "description": "Free statewide information and referral assistance for food, shelter, utility, transportation and other community needs.",
+    "phone": "833-848-9905",
+    "address": "Telephone and online statewide",
+    "website": "https://wv211.org/",
+    "access": "Dial 211, call 833-848-9905, or text your ZIP code to 898-211.",
+    "hours": "24/7",
+    "source": "https://wv211.org/contact",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "wvpath",
+    "name": "WV PATH Benefits Portal",
+    "category": [
+      "Food & essentials",
+      "Housing & utilities",
+      "Healthcare & insurance",
+      "Family & parenting"
+    ],
+    "scope": "Statewide",
+    "description": "Online applications for SNAP, Medicaid/WVCHIP, childcare assistance, home energy assistance and other state programs.",
+    "phone": "877-716-1212",
+    "address": "Online statewide",
+    "website": "https://wvpath.wv.gov/",
+    "access": "Screen for assistance and apply online; county office can help with applications.",
+    "hours": "Online portal; phone assistance hours vary",
+    "source": "https://www.wvpath.wv.gov/",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "988",
+    "name": "988 Suicide & Crisis Lifeline",
+    "category": [
+      "Crisis & safety",
+      "Recovery & mental health"
+    ],
+    "scope": "Nationwide",
+    "description": "Free confidential crisis support for people experiencing emotional distress or suicidal thoughts.",
+    "phone": "988",
+    "address": "Call, text and online",
+    "website": "https://988lifeline.org/",
+    "access": "Call or text 988; call 911 for immediate danger or medical emergency.",
+    "hours": "24/7",
+    "source": "https://988lifeline.org/",
+    "checked": "2026-11-05",
+    "verificationStatus": "Existing listing — previously checked",
+    "verificationNote": "Retained from existing directory; current availability should be confirmed."
+  },
+  {
+    "id": "wv511",
+    "name": "West Virginia 511",
+    "category": [
+      "Transportation"
+    ],
+    "scope": "Statewide",
+    "description": "Road conditions, closures and traveler information.",
+    "phone": "511",
+    "address": "",
+    "website": "https://www.wv511.org/",
+    "access": "Use the listed contact for the described service. For immediate danger or medical emergencies, call 911.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 5,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "poison",
+    "name": "Poison Control Center",
+    "category": [
+      "Crisis & safety"
+    ],
+    "scope": "Nationwide",
+    "description": "Poison exposure guidance.",
+    "phone": "800-222-1222",
+    "address": "",
+    "website": "https://www.poisonhelp.org/",
+    "access": "Use the listed contact for the described service. For immediate danger or medical emergencies, call 911.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 4,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "cps",
+    "name": "WV Child Protective Services Intake",
+    "category": [
+      "Crisis & safety"
+    ],
+    "scope": "Statewide",
+    "description": "Report suspected child abuse or neglect.",
+    "phone": "800-352-6513",
+    "address": "",
+    "website": "",
+    "access": "Use the listed contact for the described service. For immediate danger or medical emergencies, call 911.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 4,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "crisis-text",
+    "name": "Crisis Text Line",
+    "category": [
+      "Crisis & safety"
+    ],
+    "scope": "Nationwide",
+    "description": "24/7 crisis support; text HOME to 741741.",
+    "phone": "741741",
+    "address": "",
+    "website": "https://www.crisistextline.org/",
+    "access": "Use the listed contact for the described service. For immediate danger or medical emergencies, call 911.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 6,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "dart",
+    "name": "Calhoun Domestic Violence DART",
+    "category": [
+      "Crisis & safety"
+    ],
+    "scope": "Local",
+    "description": "Safety plans, protective orders, advocacy, shelter support and crisis intervention.",
+    "phone": "304-354-9254",
+    "address": "Court Street, old jail building, Grantsville, WV",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 13,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "mhhs",
+    "name": "Minnie Hamilton Health System",
+    "category": [
+      "Healthcare & insurance"
+    ],
+    "scope": "Local",
+    "description": "Hospital, emergency care, outpatient and pediatric services, rehabilitation and sliding-fee assistance.",
+    "phone": "304-354-9244",
+    "address": "186 Hospital Drive, Grantsville, WV 26147",
+    "website": "https://www.mhhs.healthcare/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 8,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "mhhs-dental",
+    "name": "Minnie Hamilton Health System Dental Clinic",
+    "category": [
+      "Healthcare & insurance"
+    ],
+    "scope": "Local",
+    "description": "General and restorative dentistry; ask about sliding-fee eligibility.",
+    "phone": "304-354-5999",
+    "address": "186 Hospital Drive, Grantsville, WV 26147",
+    "website": "https://www.mhhs.healthcare/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 6,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "arnoldsburg-school",
+    "name": "Arnoldsburg Elementary School",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Public elementary school.",
+    "phone": "304-655-8616",
+    "address": "90 Spring Run Road, Arnoldsburg, WV 25234",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "school-central",
+    "name": "Calhoun County Schools Central Office",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "School district administration and family education information.",
+    "phone": "304-354-7011",
+    "address": "540 Alan B. Mollohan Drive, Mt. Zion, WV 26151",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "career-center",
+    "name": "Calhoun-Gilmer Career Center",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Career and technical education.",
+    "phone": "304-354-6151",
+    "address": "5260 East Little Kanawha Highway, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "middle-high",
+    "name": "Calhoun County Middle High School",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Public middle and high school.",
+    "phone": "304-354-6148",
+    "address": "50 Underwood Circle, Mt. Zion, WV 26151",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "pleasant-hill",
+    "name": "Pleasant Hill Elementary School",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Public elementary school.",
+    "phone": "304-354-6022",
+    "address": "3254 North Calhoun Highway, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "christian-school",
+    "name": "Little Kanawha Valley Christian School",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Private school; contact for enrollment.",
+    "phone": "304-354-6436",
+    "address": "6377 West Little Kanawha Highway, Big Bend, WV 26136",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "save-children",
+    "name": "Save the Children Early Childhood Program",
+    "category": [
+      "Family & parenting"
+    ],
+    "scope": "Local",
+    "description": "Early language and social-emotional development and parent education for families with children ages 0–5; guide describes free services.",
+    "phone": "304-655-8616",
+    "address": "Calhoun County School District; ask for extension 124",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 7,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "career-youth",
+    "name": "Career Connections — Youth Services",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Regional",
+    "description": "Eligible ages 16–24: job skills, education, paid work experience, transportation and driver license preparation.",
+    "phone": "304-917-6143",
+    "address": "Mid-Ohio Valley workforce service area",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 8,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "career-adult",
+    "name": "Career Connections — Adult Services",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Regional",
+    "description": "Eligible adults: tuition assistance, apprenticeships, job search and resume help.",
+    "phone": "304-927-1909",
+    "address": "Mid-Ohio Valley workforce service area",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 8,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "library",
+    "name": "Calhoun County Public Library",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "Public library and learning resources; confirm hours.",
+    "phone": "304-354-6300",
+    "address": "250 Mill Street, Grantsville, WV 26147",
+    "website": "https://calhounlib.com/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "https://calhounlib.com/index.php/contact-us/",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 9,
+    "verificationStatus": "Official source checked",
+    "verificationNote": "Library official contact page; call to confirm current availability."
+  },
+  {
+    "id": "imagination",
+    "name": "Dolly Parton's Imagination Library — Calhoun",
+    "category": [
+      "Family & parenting"
+    ],
+    "scope": "Local",
+    "description": "Free mailed books monthly for enrolled children from birth to age five.",
+    "phone": "304-354-6300",
+    "address": "Calhoun County Public Library",
+    "website": "https://imaginationlibrary.com/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 9,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "circuit-clerk",
+    "name": "Calhoun County Circuit Clerk",
+    "category": [
+      "Legal & financial"
+    ],
+    "scope": "Local",
+    "description": "Circuit court clerk and records services.",
+    "phone": "304-354-6910",
+    "address": "363 Main Street, Suite 205, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 9,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "family-court",
+    "name": "Calhoun County Family Court",
+    "category": [
+      "Legal & financial"
+    ],
+    "scope": "Local",
+    "description": "Family court services and proceedings information.",
+    "phone": "304-354-9277",
+    "address": "378 Main Street, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 9,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "county-clerk",
+    "name": "Calhoun County Clerk",
+    "category": [
+      "Legal & financial"
+    ],
+    "scope": "Local",
+    "description": "County clerk records and filings.",
+    "phone": "304-354-6698",
+    "address": "363 Main Street, Suite 103, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 10,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "probation",
+    "name": "Roane and Calhoun Probation Office",
+    "category": [
+      "Legal & financial"
+    ],
+    "scope": "Local",
+    "description": "Probation office serving Roane and Calhoun.",
+    "phone": "304-354-7090",
+    "address": "Main Street, second floor, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 10,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "baptist-pantry",
+    "name": "First Baptist Food Pantry",
+    "category": [
+      "Food & essentials"
+    ],
+    "scope": "Local",
+    "description": "Food pantry; guide lists Tuesday and Thursday 11 AM–1 PM, subject to confirmation.",
+    "phone": "304-354-6130",
+    "address": "1500 East Little Kanawha Highway, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 10,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "cri",
+    "name": "Community Resources Inc. — Calhoun",
+    "category": [
+      "Food & essentials"
+    ],
+    "scope": "Local",
+    "description": "Emergency food, utility assistance, hygiene, weatherization, tax assistance, budgeting and workforce supports.",
+    "phone": "304-354-9265",
+    "address": "258 Court Street, Grantsville, WV 26147",
+    "website": "https://cricap.org/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "https://cricap.org/",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 12,
+    "verificationStatus": "Official source checked",
+    "verificationNote": "Community Resources Inc. official office listing; call to confirm current availability."
+  },
+  {
+    "id": "wic",
+    "name": "West Virginia WIC — Calhoun",
+    "category": [
+      "Food & essentials"
+    ],
+    "scope": "Local",
+    "description": "Nutrition benefits, breastfeeding support and nutrition counseling for eligible families.",
+    "phone": "304-354-6898",
+    "address": "Mill Street, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 11,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "eye",
+    "name": "Calhoun Eye Clinic",
+    "category": [
+      "Healthcare & insurance"
+    ],
+    "scope": "Local",
+    "description": "Eye care; contact for appointments and insurance.",
+    "phone": "304-354-7505",
+    "address": "256 Court Street, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 11,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "jb",
+    "name": "J&B Drugstore",
+    "category": [
+      "Healthcare & insurance"
+    ],
+    "scope": "Local",
+    "description": "Local pharmacy; confirm hours and services.",
+    "phone": "304-354-7737",
+    "address": "352 Main Street, Grantsville, WV 26147",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 11,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "walgreens",
+    "name": "Walgreens — Grantsville",
+    "category": [
+      "Healthcare & insurance"
+    ],
+    "scope": "Local",
+    "description": "Pharmacy; confirm current operation and hours.",
+    "phone": "304-354-9232",
+    "address": "337 Main Street, Grantsville, WV 26147",
+    "website": "https://www.walgreens.com/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 11,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "aging",
+    "name": "Calhoun County Committee on Aging",
+    "category": [
+      "Transportation"
+    ],
+    "scope": "Local",
+    "description": "Senior meals, transportation, in-home care, Meals on Wheels and respite services; eligibility may apply.",
+    "phone": "304-354-7017",
+    "address": "105 Market Street, Grantsville, WV 26147",
+    "website": "https://www.cccoa-wv.org/",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "https://www.cccoa-wv.org/servicesandprograms.html",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 12,
+    "verificationStatus": "Official source checked",
+    "verificationNote": "Committee on Aging official services page; call to confirm current availability."
+  },
+  {
+    "id": "extension",
+    "name": "WVU Extension — Calhoun County",
+    "category": [
+      "Employment & education"
+    ],
+    "scope": "Local",
+    "description": "4-H youth development, agriculture, natural resources and community education.",
+    "phone": "304-354-6332",
+    "address": "363 Main Street, Suite 403, Grantsville, WV 26147",
+    "website": "https://extension.wvu.edu/calhoun",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "https://extension.wvu.edu/calhoun/contact-calhoun-county",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 13,
+    "verificationStatus": "Official source checked",
+    "verificationNote": "WVU Extension official contact page; call to confirm current availability."
+  },
+  {
+    "id": "veterinary",
+    "name": "Cain's Veterinary Clinic",
+    "category": [
+      "Community navigation"
+    ],
+    "scope": "Local",
+    "description": "Veterinary care; contact for available services.",
+    "phone": "304-354-6161",
+    "address": "7519 West Little Kanawha Highway, Big Bend, WV 26136",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 6,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "wag",
+    "name": "Welfare of Animals Group (WAG)",
+    "category": [
+      "Community navigation"
+    ],
+    "scope": "Local",
+    "description": "Low-cost spay/neuter help for qualifying Calhoun County households.",
+    "phone": "304-354-7042",
+    "address": "Calhoun County, WV",
+    "website": "",
+    "access": "Call to confirm eligibility, availability and referral procedures.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 6,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "sheriff",
+    "name": "Calhoun County Sheriff's Department",
+    "category": [
+      "Crisis & safety"
+    ],
+    "scope": "Local",
+    "description": "Non-emergency law enforcement contact; call 911 for emergencies.",
+    "phone": "304-354-6333",
+    "address": "Calhoun County, WV",
+    "website": "",
+    "access": "Use the listed contact for the described service. For immediate danger or medical emergencies, call 911.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 4,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "dispatch",
+    "name": "Calhoun County Emergency Services / Dispatch",
+    "category": [
+      "Crisis & safety"
+    ],
+    "scope": "Local",
+    "description": "Non-emergency dispatch; call 911 for emergencies.",
+    "phone": "304-354-9271",
+    "address": "Calhoun County, WV",
+    "website": "",
+    "access": "Use the listed contact for the described service. For immediate danger or medical emergencies, call 911.",
+    "hours": "Confirm with provider",
+    "source": "",
+    "checked": "Resource guide — not independently verified",
+    "guidePage": 4,
+    "verificationStatus": "Guide listing — verify before referral",
+    "verificationNote": "Contact information and current availability have not been independently confirmed."
+  },
+  {
+    "id": "aging-west-fork",
+    "name": "Calhoun County Committee on Aging — West Fork Center",
+    "category": [
+      "Transportation",
+      "Food & essentials",
+      "Community navigation"
+    ],
+    "scope": "Local",
+    "description": "West Fork senior center; contact for local meals, programs and eligibility. The organization also offers transportation and in-home services.",
+    "phone": "304-655-8805",
+    "address": "121 Milo Road, Minnora, WV 25268",
+    "website": "https://www.cccoa-wv.org/",
+    "access": "Call to confirm current schedule, programs and eligibility.",
+    "hours": "Monday, Tuesday and Thursday 9 AM–2 PM (county listing; verify)",
+    "source": "https://www.calhouncountywv.com/cccoa",
+    "checked": "2026-11-06",
+    "verificationStatus": "Official source checked",
+    "verificationNote": "County government directory lists the West Fork Center; call to confirm details."
+  },
+  {
+    "id": "wv-asf",
+    "name": "WV Alliance for Sustainable Families — Calhoun VITA Site",
+    "category": [
+      "Legal & financial"
+    ],
+    "scope": "Local",
+    "description": "Free tax preparation assistance by appointment through the Community Resources Calhoun site, subject to program eligibility and seasonal availability.",
+    "phone": "304-354-9265",
+    "address": "258 Court Street, Grantsville, WV 26147",
+    "website": "https://www.wvasf.org/find-your-site",
+    "access": "Call for an appointment and verify whether tax preparation is currently offered.",
+    "hours": "Seasonal; by appointment",
+    "source": "https://www.wvasf.org/find-your-site",
+    "checked": "2026-11-06",
+    "verificationStatus": "Official source checked",
+    "verificationNote": "VITA site listing checked; call for seasonal availability."
+  }
 ]
